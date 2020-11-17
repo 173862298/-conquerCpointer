@@ -119,6 +119,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="index.cpp" />
+    <ClCompile Include="read_line.cpp" />
+    <ClCompile Include="read_line2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="read_line.h" />
+    <ClInclude Include="read_line2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
